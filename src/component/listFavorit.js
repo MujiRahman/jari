@@ -94,7 +94,7 @@ function ListFavorit() {
                     <div>kosong</div> 
                 </div>    }
                 <div className='flex'>
-                    Suka <img src={suka ? like : dislike} alt='suka-pokemon' onClick={()=>masukFavorit()} />
+                    Suka <img src={suka ? like : dislike} alt='suka-pokemon' onClick={()=>masukFavorit()} className='cursor-pointer' />
                 </div>
             </div>
         </div> : 
